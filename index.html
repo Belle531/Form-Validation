@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Validation</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>HTML5 Form Validation</h1>
+    <form>
+        <label for="username">Username (min 5 characters):</label>
+        <input type="text" id="username" name="username" minlength="5" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" minlength="8" required>
+
+        <label for="age">Age (18-100):</label>
+        <input type="number" id="age" name="age" min="18" max="100" required>
+
+        <input type="checkbox" id="terms" name="terms" required>
+        <label for="terms">I agree to the terms and conditions</label><br>
+
+        <button type="submit">Submit</button>
+    </form>
+
+    <h2>JavaScript Validation Form</h2>
+    <form id="jsForm">
+        <label for="js-username">Username (min 5 characters - JavaScript):</label>
+        <input type="text" id="js-username" name="js-username">
+        <span id="usernameError" style="color: red;"></span> 
+        <button type="submit" id="js-submit">Submit</button>
+       
+    </form>
+
+    <script src="script.js"></script>
+</body>
+</html>
