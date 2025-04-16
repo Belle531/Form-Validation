@@ -3,11 +3,11 @@
     width: 100%;
     max-width: 400px;
     text-align: center;
-    margin-bottom: 20px; /* Space between forms */
+    margin-bottom: 20px; 
     padding: 20px;
-    border: 1px solid #ccc; /* Light gray border around the form */
-    border-radius: 5px; /* Slightly rounded corners for the form */
-    background-color: #f9f9f9; /* Light gray background for the form */
+    border: 1px solid #ccc; 
+    border-radius: 5px; 
+    background-color: #f9f9f9; 
 }
 
 body {
@@ -22,23 +22,23 @@ body {
 }
 
 label {
-    display: block; /* Make labels appear on their own line */
-    margin-bottom: 5px; /* Space between label and input */
-    font-weight: bold; /* Make labels a bit bolder */
-    color: #333; /* Dark gray label text */
+    display: block;
+    margin-bottom: 5px; 
+    font-weight: bold; 
+    color: #333;
 }
 
-/* Style for text, email, password, and number input types */
+
 input[type="text"],
 input[type="email"],
 input[type="password"],
 input[type="number"] {
-    width: 100%; /* Make inputs take full width of their container */
+    width: 100%; 
     padding: 10px;
     margin-bottom: 10px;
-    border: 1px solid #ddd; /* Light gray border for inputs */
-    border-radius: 3px; /* Slightly rounded corners for inputs */
-    box-sizing: border-box; /* Include padding and border in the element's total width and height */
+    border: 1px solid #ddd; 
+    border-radius: 3px; 
+    box-sizing: border-box; 
     font-size: 16px;
 }
 
@@ -46,36 +46,35 @@ input[type="checkbox"] {
     margin-right: 5px;
 }
 
-/* Styling for valid input states */
+
 input:valid {
     border: 2px solid green;
-    background-color: #e6ffe6; /* Light green background when valid */
+    background-color: #e6ffe6; 
 }
 
-/* Styling for invalid input states */
 input:invalid {
     border: 2px solid green;
-    background-color: #e6ffe6; /* Light red background when invalid */
+    background-color: #e6ffe6; 
 }
 
 button[type="submit"] {
-    background-color: #007bff; /* Blue submit button */
+    background-color: #007bff; 
     color: white;
     padding: 10px 15px;
     border: none;
     border-radius: 5px;
     cursor: pointer;
     font-size: 16px;
-    transition: background-color 0.3s ease; /* Optional: smooth hover transition */
+    transition: background-color 0.3s ease;
 }
 
 button[type="submit"]:hover {
-    background-color: #0056b3; /* Darker blue on hover */
+    background-color: #0056b3; 
 }
 
 .error-message {
     color: red;
     font-size: 0.9em;
     margin-top: 5px;
-    display: block; /* Make sure it appears below the input */
+    display: block; 
 }
